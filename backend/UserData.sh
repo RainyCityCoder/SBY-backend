@@ -2,7 +2,7 @@
 set -e
 
 # Replace {YOUR_GIT_REOPO_URL} with your actual Git repository URL
-GIT_REPO_URL="https://github.com/RainyCityCoder/ScientistBirthYear.git"
+GIT_REPO_URL="https://github.com/RainyCityCoder/SBY-backend.git"
 
 # Replace {YOUR_PROJECT_MAIN_DIR_NAME} with your actual project directory name
 PROJECT_MAIN_DIR_NAME="backend"
