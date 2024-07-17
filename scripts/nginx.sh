@@ -4,7 +4,7 @@
 PROJECT_MAIN_DIR_NAME="SBY-backend"
 
 # Replace {FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS} with the folder name where your nginx configuration file exists
-FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS="pythonbackend/pythonbackend"
+FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS="nginx"
 
 # Reload systemd daemon
 sudo systemctl daemon-reload
