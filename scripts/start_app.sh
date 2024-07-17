@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-PROJECT_MAIN_DIR_NAME="backend"
+PROJECT_MAIN_DIR_NAME="SBY-backend"
 
 # Validate variables
 if [ -z "$PROJECT_MAIN_DIR_NAME" ]; then

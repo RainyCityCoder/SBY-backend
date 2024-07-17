@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
 # Replace {YOUR_PROJECT_MAIN_DIR_NAME} with your actual project directory name
-PROJECT_MAIN_DIR_NAME="backend"
+PROJECT_MAIN_DIR_NAME="SBY-backend"
 
 # Replace {FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS} with the folder name where your nginx configuration file exists
-FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS="pythonbackend"
+FOLDER_NAME_WHERE_SETTINGS_FILE_EXISTS="pythonbackend/pythonbackend"
 
 # Reload systemd daemon
 sudo systemctl daemon-reload
