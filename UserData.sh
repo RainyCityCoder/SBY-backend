@@ -5,7 +5,7 @@ set -e
 GIT_REPO_URL="https://github.com/RainyCityCoder/SBY-backend.git"
 
 # Replace {YOUR_PROJECT_MAIN_DIR_NAME} with your actual project directory name
-PROJECT_MAIN_DIR_NAME="backend"
+PROJECT_MAIN_DIR_NAME="SBY-backend"
 
 # Clone repository
 git clone "$GIT_REPO_URL" "/home/ubuntu/$PROJECT_MAIN_DIR_NAME"
