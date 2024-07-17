@@ -7,7 +7,7 @@ After=network.target
 User=ubuntu
 Group=www-data
 WorkingDirectory=/home/ubuntu/SBY-backend
-ExecStart=/home/ubuntu/backend/venv/bin/gunicorn \
+ExecStart=/home/ubuntu/SBY-backend/venv/bin/gunicorn \
           --access-logfile - \
           --workers 3 \
           --bind unix:/run/gunicorn.sock \
