@@ -24,4 +24,4 @@ sudo service nginx restart
 
 # Start API
 cd $PROJECT_MAIN_DIR_NAME/
-python3 manage.py runserver
+python3 manage.py runserver 0.0.0.0:8000
