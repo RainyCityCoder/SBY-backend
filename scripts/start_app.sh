@@ -16,17 +16,12 @@ sudo chown -R ubuntu:ubuntu "/home/ubuntu/$PROJECT_MAIN_DIR_NAME"
 cd "/home/ubuntu/$PROJECT_MAIN_DIR_NAME"
 
 # Activate virtual environment
-echo "Activating virtual environment..."
 source "/home/ubuntu/$PROJECT_MAIN_DIR_NAME/venv/bin/activate"
 
-# Run collectstatic command
-echo "Running collectstatic command..."
-cd $PROJECT_MAIN_DIR_NAME/
-python3 manage.py runserver
-
 # Restart Gunicorn and Nginx services
-echo "Restarting Gunicorn and Nginx services..."
 sudo service gunicorn restart
 sudo service nginx restart
 
-echo "Application started successfully."
+# Start API
+cd $PROJECT_MAIN_DIR_NAME/
+python3 manage.py runserver
