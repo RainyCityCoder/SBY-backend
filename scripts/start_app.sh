@@ -21,7 +21,8 @@ source "/home/ubuntu/$PROJECT_MAIN_DIR_NAME/venv/bin/activate"
 
 # Run collectstatic command
 echo "Running collectstatic command..."
-python manage.py collectstatic --noinput
+cd $PROJECT_MAIN_DIR_NAME/
+python3 manage.py runserver
 
 # Restart Gunicorn and Nginx services
 echo "Restarting Gunicorn and Nginx services..."
