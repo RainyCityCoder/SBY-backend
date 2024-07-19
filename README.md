@@ -14,11 +14,9 @@ This full-stack app was designed to fulfill the following requirements:
    1. [Front-End](#front-end)
    2. [Back-end](#back-end)
    3. [Database](#database)
-2. [Deployed Front-end](#deployed-front-end)
-3. [Data API](#data-api)
-4. [For Developers](#for-developers)
-5. [Tech Stack](#tech-stack)
-6. [Credits](#original-project-credits)
+2. [Data API](#data-api)
+3. [For Developers](#for-developers)
+4. [Tech Stack](#tech-stack)
 
 ## Design
 
