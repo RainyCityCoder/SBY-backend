@@ -12,11 +12,12 @@ This full-stack app was designed to fulfill the following requirements:
 
 1. [Design](#design)
    1. [Front-End](#front-end)
-   2. [Back-end](#back-end)
-   3. [Database](#database)
-2. [Data API](#data-api)
-3. [For Developers](#for-developers)
-4. [Tech Stack](#tech-stack)
+   1. [Back-end](#back-end)
+   1. [Database](#database)
+1. [Data API](#data-api)
+1. [For Developers](#for-developers)
+1. [Tech Stack](#tech-stack)
+1. [Contributions](#contributing)
 
 ## Design
 
@@ -61,3 +62,7 @@ Once downloaded, in your terminal navigate to `SBY-backend/pythonbackend`, and s
     * djangorestframework
     * django-cors-headers
 - SQLite3 database
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
