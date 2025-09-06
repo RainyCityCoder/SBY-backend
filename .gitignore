@@ -3,3 +3,5 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyc
+db.sqlite3
+db.sqlite3-journal
