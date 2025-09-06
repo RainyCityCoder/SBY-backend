@@ -1,12 +1,12 @@
 # Scientist Birthdays
 
-This full-stack app was designed to fulfill the following requirements:
+This full-stack app was originally designed to fulfill the following requirements:
 
 1. React front-end, demonstrating proper component use, with no topic/subject requirement.
-2. Django back-end with 2 or more endpoints accessed by the front end.
-3. Deploy the front end to AWS S3.
-4. Deploy the back end to AWS EC2.
-5. Website is publicly available.
+1. Django back-end with 2 or more endpoints accessed by the front end.
+1. Deploy the front end to AWS S3.
+1. Deploy the back end to AWS EC2.
+1. Website is publicly available.
 
 ## Table of Contents
 
