@@ -52,7 +52,7 @@ To run this code locally on Linux:
 
 Download the front-end repo [here](https://github.com/RainyCityCoder/SBY-frontend), and the back-end repo [here](https://github.com/RainyCityCoder/SBY-backend).
 
-Once downloaded, in your terminal navigate to `SBY-backend/pythonbackend`, and start the Django API with `python3 manage.py runserver`. Please be aware that the API URL in the two `fetch()` commands in `~/SBY-frontend/src/Components/DataDisplay.jsx` will need to be updated. Next, navigate to `SBY-frontend`, and the React SPA may be initiated locally with `npm run dev`, which will provide a link to the running SPA, and should be `http://localhost:5173/`.
+Once downloaded, in your terminal navigate to `SBY-backend/pythonbackend`, run `pip install -r requirements.txt`, and start the Django API with `python3 manage.py runserver`. Please be aware that the API URL in the two `fetch()` commands in `~/SBY-frontend/src/Components/DataDisplay.jsx` will need to be updated. Next, navigate to `SBY-frontend`, and the React SPA may be initiated locally with `npm run dev`, which will provide a link to the running SPA, and should be `http://localhost:5173/`.
 
 ## Tech Stack
 
