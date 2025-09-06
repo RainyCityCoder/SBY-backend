@@ -12,11 +12,12 @@ This full-stack app was designed to fulfill the following requirements:
 
 1. [Design](#design)
    1. [Front-End](#front-end)
-   2. [Back-end](#back-end)
-   3. [Database](#database)
-2. [Data API](#data-api)
-3. [For Developers](#for-developers)
-4. [Tech Stack](#tech-stack)
+   1. [Back-end](#back-end)
+   1. [Database](#database)
+1. [Data API](#data-api)
+1. [For Developers](#for-developers)
+1. [Tech Stack](#tech-stack)
+1. [Contributing](#contributing)
 
 ## Design
 
@@ -51,7 +52,7 @@ To run this code locally on Linux:
 
 Download the front-end repo [here](https://github.com/RainyCityCoder/SBY-frontend), and the back-end repo [here](https://github.com/RainyCityCoder/SBY-backend).
 
-Once downloaded, in your terminal navigate to `SBY-backend/pythonbackend`, and start the Django API with `python3 manage.py runserver`. Please be aware that the API URL in the two `fetch()` commands in `~/SBY-frontend/src/Components/DataDisplay.jsx` will need to be updated. Next, navigate to `SBY-frontend`, and the React SPA may be initiated locally with `npm run dev`, which will provide a link to the running SPA, and should be `http://localhost:5173/`.
+Once downloaded, in your terminal navigate to `SBY-backend/pythonbackend`, run `pip install -r requirements.txt`, and start the Django API with `python3 manage.py runserver`. Please be aware that the API URL in the two `fetch()` commands in `~/SBY-frontend/src/Components/DataDisplay.jsx` will need to be updated. Next, navigate to `SBY-frontend`, and the React SPA may be initiated locally with `npm run dev`, which will provide a link to the running SPA, and should be `http://localhost:5173/`.
 
 ## Tech Stack
 
@@ -61,3 +62,7 @@ Once downloaded, in your terminal navigate to `SBY-backend/pythonbackend`, and s
     * djangorestframework
     * django-cors-headers
 - SQLite3 database
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
