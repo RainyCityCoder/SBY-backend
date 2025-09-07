@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 SECRET_KEY = os.environ.get('SECRET_KEY', default='super secret key')
-ALLOWED_HOSTS = [os.environ.get['RENDER_EXTERNAL_HOSTNAME']]
+ALLOWED_HOSTS = [os.environ.get['RENDER_EXTERNAL_HOSTNAME', 'localhost']]
 CSFR_TRUSTED_ORIGINS = ['https://'+os.environ.get['RENDER_EXTERNAL_HOSTNAME']]
 
 DEBUG = False
