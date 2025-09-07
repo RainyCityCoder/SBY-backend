@@ -97,14 +97,21 @@ WSGI_APPLICATION = 'pythonbackend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    'default': dj_database_url.config(
-        default=os.environ.get('DATABASE_URL'),
-        conn_max_age=600,
-        ssl_require=True
-    )
-}
-DATABASES['default']['OPTIONS'] = {"sslmode": "require"}
+if os.environ.get("USE_SUPABASE_REST"):
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.dummy'
+        }
+    }
+else:
+    DATABASES = {
+        'default': dj_database_url.config(
+            default=os.environ.get('DATABASE_URL'),
+            conn_max_age=600,
+            ssl_require=True
+        )
+    }
+    DATABASES['default']['OPTIONS'] = {"sslmode": "require"}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
