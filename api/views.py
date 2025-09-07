@@ -3,8 +3,6 @@ from rest_framework.response import Response
 import requests
 import os
 
-# Create your views here.
-
 class Biologists(APIView):
     def get(self, request):
         SUPABASE_URL = os.environ.get("SUPABASE_REST_API_BIOLOGISTS_URL")
@@ -24,7 +22,7 @@ class Biologists(APIView):
             return Response({"error": "Unable to fetch data"}, status=response.status_code)
 
 
-class ComputerScientists(generics.ListCreateAPIView):
+class ComputerScientists(APIView):
     def get(self, request):
         SUPABASE_URL = os.environ.get("SUPABASE_REST_API_COMPUTERSCIENTISTS_URL")
         SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
