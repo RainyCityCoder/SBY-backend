@@ -39,7 +39,7 @@ Django API offering the following endpoints:
 
 ### **Database:**
 
-The PostgreSQL database contains two tables of interest:
+The SQL database contains two tables of interest:
 1. biologists
 2. computerscientists
 
@@ -64,7 +64,7 @@ Once downloaded, in your terminal navigate to `SBY-backend/pythonbackend`, run `
 - [Django back-end (API)](https://github.com/RainyCityCoder/SBY-backend)
     * djangorestframework
     * django-cors-headers
-- SQLite3/PostgreSQL database
+- PostgreSQL database
 
 ## Contributing
 
