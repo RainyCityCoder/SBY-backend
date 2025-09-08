@@ -1,4 +1,4 @@
-# Scientist Birthdays
+# Scientist Birthdays Backend
 
 This full-stack app was originally designed to fulfill the following requirements:
 
@@ -39,7 +39,7 @@ Django API offering the following endpoints:
 
 ### **Database:**
 
-The SLQite3 database contains two tables of interest:
+The PostgreSQL database contains two tables of interest:
 1. biologists
 2. computerscientists
 
