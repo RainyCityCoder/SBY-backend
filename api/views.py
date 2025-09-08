@@ -6,7 +6,7 @@ import os
 class Biologists(APIView):
     def get(self, request):
         SUPABASE_URL = os.environ.get("SUPABASE_REST_API_BIOLOGISTS_URL")
-        SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
+        SUPABASE_KEY = os.environ.get("SUPABASE_ANON_API_KEY")
 
         headers = {
             "apikey": SUPABASE_KEY,
@@ -25,7 +25,7 @@ class Biologists(APIView):
 class ComputerScientists(APIView):
     def get(self, request):
         SUPABASE_URL = os.environ.get("SUPABASE_REST_API_COMPUTERSCIENTISTS_URL")
-        SUPABASE_KEY = os.environ.get("SUPABASE_KEY")
+        SUPABASE_KEY = os.environ.get("SUPABASE_ANON_API_KEY")
 
         headers = {
             "apikey": SUPABASE_KEY,
