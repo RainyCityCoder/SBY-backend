@@ -1,12 +1,20 @@
-# Scientist Birthdays
+# Scientist Birthdays Backend
 
 This full-stack app was originally designed to fulfill the following requirements:
 
 1. React front-end, demonstrating proper component use, with no topic/subject requirement.
-1. Django back-end with 2 or more endpoints accessed by the front end.
-1. Deploy the front end to AWS S3.
-1. Deploy the back end to AWS EC2.
-1. Website is publicly available.
+2. Django back-end with 2 or more endpoints accessed by the front end.
+3. Deploy the front end to AWS S3.
+4. Deploy the back end to AWS EC2.
+5. Website is publicly available.
+
+As the AWS free account that originally hosted this project has lapsed a new hosting solution needed to be found to keep the app affordable. After some research, Supabase, Render, and XXXX were chosen to host the database, API, and front-end respectively. 
+
+`main` branch hosts generic code usable in a dev environment, but not deployment-specific code.
+
+`awsdeploy` branch contains code originally used to host the project on AWS.
+
+`render-deploy` branch contains code used to host the back end API on Render, and the database on Supabase.
 
 ## Table of Contents
 
@@ -17,7 +25,8 @@ This full-stack app was originally designed to fulfill the following requirement
 1. [Data API](#data-api)
 1. [For Developers](#for-developers)
 1. [Tech Stack](#tech-stack)
-1. [Contributions](#contributing)
+1. [Contributing](#contributing)
+1. [Resources](#resources-utilized)
 
 ## Design
 
@@ -36,7 +45,7 @@ Django API offering the following endpoints:
 
 ### **Database:**
 
-The SLQite3 database contains two tables of interest:
+The SQL database containing two tables of interest:
 1. biologists
 2. computerscientists
 
@@ -56,13 +65,21 @@ Once downloaded, in your terminal navigate to `SBY-backend/pythonbackend`, run `
 
 ## Tech Stack
 
-- React.js front-end
-    * React Bootstrap
-- Django back-end (API)
+- [React.js front-end](https://github.com/RainyCityCoder/SBY-frontend)
+    * Bootstrap
+- [Django back-end (API)](https://github.com/RainyCityCoder/SBY-backend)
     * djangorestframework
     * django-cors-headers
-- SQLite3 database
+- SQLite3/PostgreSQL database
 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first.
+
+## Resources utilized
+
+- [foadbotan](https://gist.github.com/foadbotan/ba617102ab15eb648947afbbb88295cb)
+- [CBI Analytics](https://www.youtube.com/playlist?list=PLmEKHA8iFrmCAPgSe9ze8RXXdE0M11suR)
+- [Supbase docs](https://supabase.com/docs/guides/database/import-data)
+- [Render docs](https://render.com/docs/deploy-django#updating-an-existing-django-project)
+- ChatGPT
