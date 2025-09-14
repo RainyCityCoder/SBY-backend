@@ -34,7 +34,7 @@ CORS_ALLOWED_ORIGINS = [
     # "https://api.domain.com",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://sby-frontend.vercel.app/"
+    "https://sby-frontend.vercel.app"
 ]
 
 STORAGES = {
